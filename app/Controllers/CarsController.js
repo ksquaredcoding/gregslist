@@ -7,7 +7,7 @@ function drawCars() {
   let template = ''
   appState.cars.forEach(car => template += car.CarCardTemplate)
   // TODO trigger bad set
-  setHTML('car-listings', template)
+  setHTML('listings', template)
 }
 
 
@@ -22,8 +22,6 @@ export class CarsController {
 
   showCars() {
     drawCars()
-    document.getElementById('jobs-hide').classList.add('d-none')
-    document.getElementById('cars-hide').classList.remove('d-none')
   }
 
 
