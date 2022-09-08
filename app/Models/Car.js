@@ -28,7 +28,7 @@ export class Car {
             ${this.make} | ${this.model} ${this.year}
           </h5>
           <p>
-            <strong>$ ${this.price}</strong>
+            <strong>$${this.price}</strong>
           </p>
           <p>${this.description}</p>
         </div>
